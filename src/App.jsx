@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./style"
-import { NavBar } from "./components"
+import { NavBar, Hero } from "./components"
 
 const App = () => {
     return (
@@ -14,7 +14,7 @@ const App = () => {
             
             <div className={`"bg-primary" ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    Hero Section
+                    <Hero />
                 </div>
             </div>
             
