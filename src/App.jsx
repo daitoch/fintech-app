@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./style"
-import { NavBar, Hero } from "./components"
+import { NavBar, Hero, Stats } from "./components"
 
 const App = () => {
     return (
@@ -20,7 +20,7 @@ const App = () => {
             
             <div className={`"bg-primary" ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    Stats
+                    <Stats />
                     Billing
                     Bussiness
                     Card Deal
