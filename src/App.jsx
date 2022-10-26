@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./style"
-import { NavBar, Hero, Stats } from "./components"
+import { NavBar, Hero, Stats, Business } from "./components"
 
 const App = () => {
     return (
@@ -21,8 +21,7 @@ const App = () => {
             <div className={`"bg-primary" ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Stats />
-                    Billing
-                    Bussiness
+                    <Business />
                     Card Deal
                     Testimonials
                     Footer
