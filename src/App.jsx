@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./style"
-import { NavBar, Hero, Stats, Business } from "./components"
+import { NavBar, Hero, Stats, Business, Billing } from "./components"
 
 const App = () => {
     return (
@@ -22,6 +22,7 @@ const App = () => {
                 <div className={`${styles.boxWidth}`}>
                     <Stats />
                     <Business />
+                    <Billing />
                     Card Deal
                     Testimonials
                     Footer
