@@ -2,6 +2,8 @@ import React from "react";
 
 import styles, { layout } from "../style";
 import { features } from "../constants";
+import Button from "./Button";
+import Features from "./Features";
 
 
 const Business = () => {
@@ -17,9 +19,13 @@ const Business = () => {
                 building credit, earning rewards and saving money. But with hundreds
                 of credit cards on the market.
                 </p>
+                <Button />
             </div>
 
-            <div>
+            <div className={`${layout.sectionImg} flex-col`}>
+                {features.map((feature, index) => (
+                    <Features key={feature.id} {...feature} index={index} />
+                ))}
 
             </div>
         </section>
